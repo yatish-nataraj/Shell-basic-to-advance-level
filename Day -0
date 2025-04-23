@@ -1,5 +1,7 @@
 #!/bin/bash
-#Assign a variable a, which is a string
+#Assign a variable a, which is a string. No need to mention the type of variable, like int, string, etc. 
+#We can just assign a variable="value".
 a=Yatish 
-
+b=5
 echo "My name is $a"
+echo "My height is $b feet"
