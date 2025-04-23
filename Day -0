@@ -1,0 +1,5 @@
+#!/bin/bash
+#Assign a variable a, which is a string
+a=Yatish 
+
+echo "My name is $a"
