@@ -3,5 +3,10 @@
 #We can just assign a variable="value".
 a=Yatish 
 b=5
+#demonstrate read command
+echo "Enter a value"
+read c
+echo "Entered value is $c"
+#end of demonstration to read command
 echo "My name is $a"
 echo "My height is $b feet"
