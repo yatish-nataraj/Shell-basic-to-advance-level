@@ -1,0 +1,15 @@
+Important commands for shell scripting 
+
+
+Head -> Prints First(old) messages 
+Example
+cat /var/log/messages | head  (Prints first 10 lines of /var/log/messages)
+head /var/log/messages        (Prints first 10 lines of /var/log/messages)
+head -n 20 /var/log/messages  (Prints first 20 lines of /var/log/messages. Similarly any number of first n number of lines can be printed)
+
+Tail -> Prints Last (latest) messages
+Example 
+cat /var/log/messages | tail  (Prints first 10 lines of /var/log/messages)
+tail /var/log/messages        (Prints first 10 lines of /var/log/messages)
+tail -n 20 /var/log/messages  (Prints first 20 lines of /var/log/messages. Similarly any number of first n number of lines can be printed)
+
